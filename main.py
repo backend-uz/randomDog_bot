@@ -22,7 +22,9 @@ def sendPhoto(chat_id, text, photo, message_id):
     URL = f'https://api.telegram.org/bot{TOKEN}/sendPhoto'
     if text == '/dog':
         r = requests.post(URL, params=params)
-    return r.json()
+        return r.json()
+    else: #boshqa text kelib qolganda xatolik bermasligi uchun if else yozdim.
+        pass
 
 lastUpdId = -1
 while True:
