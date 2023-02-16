@@ -53,4 +53,4 @@ while True:
     if update_id != lastUpdId:
         sendPhoto(chat_id, img)
         lastUpdId = update_id
-    sleep(1)
+    sleep(2)
