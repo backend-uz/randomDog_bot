@@ -16,7 +16,6 @@ def getLastUpd(result):
     message_id = response['message']['message_id']
     return chat_id, text, update_id, message_id
 
-
 def sendPhoto(chat_id, photo):
 
     button1 = {'text':'Dog'}
